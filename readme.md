@@ -20,7 +20,7 @@ git checkout -b <branchName>			// creates a new branch
 git checkout <branchName>				// change to branch
 git branch -m <new branch name>   // rename current branch
 git branch -m <old branch name> <new branch name>     // rename branch
-git branch -d <branch_name> // deletes branch
+git branch -d <branch_name>      // deletes branch
 
 
 git tag -a '<verNumber>' -m '<msg>'		// tags the current commit

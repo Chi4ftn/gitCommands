@@ -18,7 +18,8 @@ git remote add origin <url>				// connection to github, has to be setup on githu
 
 git checkout -b <branchName>			// creates a new branch
 git checkout <branchName>				// change to branch
-git branch -m <new branch name>| git branch -m <old branch name> <new branch name>     // rename branch
+git branch -m <new branch name>   // rename current branch
+git branch -m <old branch name> <new branch name>     // rename branch
 git branch -d <branch_name> // deletes branch
 
 

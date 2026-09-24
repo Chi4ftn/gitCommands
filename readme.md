@@ -29,6 +29,7 @@ git push origin <branchName>			// exopse target branch on github... or push or s
 git push origin --tags					// tags must be push sepreatly
 
 git pull origin <branchName>			// sync down remote to local changes
+git reset --hard HEAD~1         // go back to the last commit (keeps going back so if you do it multiple times it will keep going further back)
 git reset --hard <id>					// go back in time to target commit
 git diff								// show diff between commits
 ```
